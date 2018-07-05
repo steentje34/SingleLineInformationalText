@@ -1,0 +1,59 @@
+{
+	"name": "Single Line Informational Text",
+
+	"namespace": "Stanford\\SingleLineInformationalText",
+
+	"authors": [
+		{
+			"name": "Alvaro A. Alvarez",
+			"email": "alvaro1@stanford.edu",
+			"institution": "Stanford University"
+		}
+	],
+
+	"permissions": [
+		"hook_every_page_top",
+		"select_data",
+		"update_data",
+		"delete_data",
+		"redcap_control_center",
+		"update_user_permissions"
+
+	],
+  "enable-every-page-hooks-on-system-pages": true,
+
+	"description": "Single line Informational text to display at top of all pages, Used to distinguish between Demo, Test and UAT REDCap installations",
+
+	"links": {},
+
+	"system-settings": [
+		{
+			"key": "alert-background-css",
+			"name": "Informational text Background",
+			"required": true,
+			"allow-project-overrides": false,
+			"type": "text",
+			"default": "#ff9800"
+		},
+      {
+        "key": "alert-text-css",
+        "name": "Informational text Color",
+        "required": true,
+        "allow-project-overrides": false,
+        "type": "text",
+        "default": "#ffffff"
+      },
+      {
+			"key": "alert-message",
+			"name": "Informational Text",
+			"required": true,
+			"allow-project-overrides": false,
+			"type": "text",
+			"default": "REDCap Demo Instance"
+		}
+
+	],
+	
+	"project-settings": []
+
+}
