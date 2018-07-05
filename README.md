@@ -6,3 +6,5 @@
  
  
  Enable module on all projects by default on the Module Configuration.
+ 
+ ![alt text](SingleLineInformationalText.png "image")
