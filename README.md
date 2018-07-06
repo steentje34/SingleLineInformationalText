@@ -2,7 +2,7 @@
 # REDCap Single line System Informational Text
  
 
- EM Single line Informational System text to display at top of all pages,  Used to distinguish between Demo, Test and UAT REDCap installations, announce maintenance time, etc.
+ EM Single line Informational text to display at the top of all pages, it can be used to distinguish between Demo or Tests REDCap instances or to announce maintenance windows, etc.
  
  #### Options
  

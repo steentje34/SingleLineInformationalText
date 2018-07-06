@@ -22,7 +22,7 @@
 	],
   "enable-every-page-hooks-on-system-pages": true,
 
-	"description": "Single line Informational text to display at the top of all pages, can be used to distinguish between Demo, Test and UAT REDCap instances or to announce maintenance window , etc.",
+	"description": "Single line Informational text to display at the top of all pages, it can be used to distinguish between Demo or Tests REDCap instances or to announce maintenance windows, etc",
 
 	"links": {},
 
