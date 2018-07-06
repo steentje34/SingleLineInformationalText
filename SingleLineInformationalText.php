@@ -6,8 +6,19 @@ use ExternalModules\ExternalModules;
 
 class SingleLineInformationalText extends AbstractExternalModule
 {
+
+
+
+
+
+
+
+
 	function hook_every_page_top($project_id)
 	{
+
+        //remove from surveys if checked
+	    if(PAGE == "surveys/index.php" and $this->getSystemSetting('exclude-surveys')==1){return 0;}
 			?>
 			<style>
                 .label_l {
@@ -15,10 +26,10 @@ class SingleLineInformationalText extends AbstractExternalModule
                     top: 0;
                     left: 10%;
                     display: block;
-                    color: white;
+
                     /*padding: 4px;*/
                     width: 100% !important;
-                    z-index: 99 !important;
+                    z-index: 10 !important;
                 }
                 .warning_l {
                     background-color:<?php echo $this->getSystemSetting('alert-background-css');?>;

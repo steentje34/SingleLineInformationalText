@@ -28,8 +28,14 @@
 
 	"system-settings": [
 		{
+			"key": "exclude-surveys",
+			"name": "Exclude Surveys",
+			"required": false,
+			"type": "checkbox"
+		},
+		{
 			"key": "alert-background-css",
-			"name": "Informational text Background",
+			"name": "Informational text Background Color",
 			"required": true,
 			"allow-project-overrides": false,
 			"type": "text",
