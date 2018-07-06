@@ -23,3 +23,6 @@
  
  ![alt text](SingleLineInformationalText.png "image")
  
+**MARQUEE**
+
+ ![alt text](marquee.gif "image")
