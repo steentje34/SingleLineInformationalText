@@ -6,14 +6,6 @@ use ExternalModules\ExternalModules;
 
 class SingleLineInformationalText extends AbstractExternalModule
 {
-
-
-
-
-
-
-
-
 	function hook_every_page_top($project_id)
 	{
 
