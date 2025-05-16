@@ -32,7 +32,7 @@ class SingleLineInformationalText extends AbstractExternalModule
                 $('document').ready(function(){
                     var text= "<div id=\"span-label_l\" class=\"label_l warning_l\"><span><?php echo $this->getSystemSetting('alert-message');?></span></div>";
                     $("body").prepend(text);
-                   $(".navbar-fixed-top").css('top','18px');
+                   $(".navbar").css('top','18px');
                 });
             </script>
 			<?php
